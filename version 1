@@ -1,0 +1,17 @@
+import datetime
+
+event_title = input()
+year = int(input())
+month = int(input())
+day = int(input())
+
+
+event_date = datetime.date(year, month, day)
+
+print("\nFormatted Output:")
+print("Event:", event_title.upper())
+print("Date:", event_date)
+print("Year:", event_date)
+print("Month:", event_date)
+print("Day:", event_date)
+print("Weekday:", event_date)
